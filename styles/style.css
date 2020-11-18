@@ -1,0 +1,75 @@
+.space{
+    width: 32%;
+    height: 33%;
+    float: left;
+    font-size: 30vw;
+    text-align: center;
+    margin: auto;
+}
+
+.rightBorder{
+    border-right: 3px solid black;
+}
+
+.bottomBorder{
+    border-bottom: 3px solid black;
+}
+
+#area{
+    width: 85%;
+    height: 80%;
+    margin-left: 5%;
+}
+
+.X{
+    color: rgb(0, 108, 170);
+}
+
+.O{
+    color: rgb(233, 33, 83);
+}
+
+button{
+    width: 50%;
+    height: 7.5%;
+    margin-left: 25%;
+    font-size: 22px
+}
+
+#gerar{
+    margin-bottom: 2.5%;
+}
+
+#resetar{
+    margin-top: 2.5%;
+}
+
+#result{
+    text-align: center;
+    font-size: 30px;
+    margin: 3px;
+}
+
+@media only screen and (min-width:768px){
+    #area{
+        width: 50%;
+        margin-left: 25%;
+        font-size: 18px;
+    }
+
+    .space{
+        font-size: 12.5vw;
+    }
+
+    button{
+        height: 5%;
+        width: 30%;
+        margin-left: 35%;
+        font-size: 30px;
+    }
+
+    #result{
+        margin: 1px;
+        font-size: 3vw;
+    }
+}
